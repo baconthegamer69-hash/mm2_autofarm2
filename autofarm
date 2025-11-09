@@ -20,7 +20,7 @@ if queueteleport then
         if State == Enum.TeleportState.Started then
             queueteleport([[
 -- Здесь перезагрузится основной скрипт после перезахода
-loadstring(game:HttpGet("https://raw.githubusercontent.com/your_username/your_repo/main/MM2_ULTRA.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/baconthegamer69-hash/mm2_autofarm2/refs/heads/main/autofarm"))()
             ]])
         end
     end)
